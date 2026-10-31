@@ -1,0 +1,1636 @@
+{
+  "places": [
+    {
+      "id": "demo-healthcare",
+      "name": "Fictional CareNori Community Centre",
+      "nameEs": "Centro comunitario ficticio CareNori",
+      "category": "healthcare",
+      "coordinates": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "reception",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      },
+      "notes": "This is an authored fictional campus. No appointment or service availability is implied.",
+      "notesEs": "Este campus es ficticio. No implica que haya citas o servicios disponibles."
+    },
+    {
+      "id": "demo-pharmacy",
+      "name": "Campus pharmacy",
+      "nameEs": "Farmacia del campus",
+      "category": "pharmacy",
+      "coordinates": [
+        0.000224578,
+        -0.000044916
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "pharmacy",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-parking",
+      "name": "Accessible parking",
+      "nameEs": "Estacionamiento accesible",
+      "category": "parking",
+      "coordinates": [
+        -0.000628818,
+        -0.000494071
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "parking",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-dropoff",
+      "name": "Drop-off area",
+      "nameEs": "Zona de descenso",
+      "category": "dropoff",
+      "coordinates": [
+        -0.000179662,
+        -0.000494071
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "dropoff",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-main-entrance",
+      "name": "Main entrance with steps",
+      "nameEs": "Entrada principal con escalones",
+      "category": "entrance",
+      "coordinates": [
+        -0.000134747,
+        -0.000134747
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "main",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-side-entrance",
+      "name": "Step-free side entrance",
+      "nameEs": "Entrada lateral sin escalones",
+      "category": "entrance",
+      "coordinates": [
+        -0.000449156,
+        -0.000089831
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "side",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-ramp",
+      "name": "Side approach ramp",
+      "nameEs": "Rampa lateral",
+      "category": "ramp",
+      "coordinates": [
+        -0.000538987,
+        -0.000269493
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "ramp",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-reception",
+      "name": "Reception",
+      "nameEs": "Recepción",
+      "category": "reception",
+      "coordinates": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "reception",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-elevator-a",
+      "name": "Elevator A",
+      "nameEs": "Ascensor A",
+      "category": "elevator",
+      "coordinates": [
+        0.000179662,
+        0.000179662
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "lift-a-ground",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-elevator-b",
+      "name": "Elevator B",
+      "nameEs": "Ascensor B",
+      "category": "elevator",
+      "coordinates": [
+        0.000583902,
+        0.000179662
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "lift-b-ground",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-restroom-ground",
+      "name": "Ground-floor restroom",
+      "nameEs": "Baño de la planta baja",
+      "category": "restroom",
+      "coordinates": [
+        -0.000179662,
+        0.000269493
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "restroom",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-quiet-room",
+      "name": "Upper-floor quiet room",
+      "nameEs": "Sala tranquila de la planta superior",
+      "category": "quiet",
+      "coordinates": [
+        0.000538987,
+        0.00040424
+      ],
+      "floor": 1,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "quiet",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-assistance-desk",
+      "name": "Wheelchair assistance desk",
+      "nameEs": "Mostrador de asistencia con silla de ruedas",
+      "category": "assistance",
+      "coordinates": [
+        -0.000179662,
+        0.000089831
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "assistance",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      },
+      "notes": "An assistance desk is listed. Wheelchair loan availability is unknown; ask staff.",
+      "notesEs": "Se incluye un mostrador de asistencia. Se desconoce si se prestan sillas de ruedas; pregunta al personal."
+    },
+    {
+      "id": "demo-waiting-area",
+      "name": "General waiting area",
+      "nameEs": "Zona de espera general",
+      "category": "waiting",
+      "coordinates": [
+        0.000044916,
+        0.000179662
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "waiting",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-consultation",
+      "name": "Upper-floor consultation room",
+      "nameEs": "Consultorio de la planta superior",
+      "category": "consultation",
+      "coordinates": [
+        0.000314409,
+        0.00040424
+      ],
+      "floor": 1,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "consultation",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-restroom-upper",
+      "name": "Upper-floor restroom",
+      "nameEs": "Baño de la planta superior",
+      "category": "restroom",
+      "coordinates": [
+        0.00040424,
+        0.000583902
+      ],
+      "floor": 1,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "upper-restroom",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      },
+      "notes": "Limited sample access: turning space is described as restricted. Check suitability.",
+      "notesEs": "Acceso limitado de ejemplo: se describe un espacio de giro reducido. Consulta si es adecuado."
+    },
+    {
+      "id": "demo-rest-area",
+      "name": "Ground-floor rest area",
+      "nameEs": "Zona de descanso de la planta baja",
+      "category": "waiting",
+      "coordinates": [
+        -0.000359324,
+        0.000179662
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "rest",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-stairs",
+      "name": "Staircase",
+      "nameEs": "Escaleras",
+      "category": "stairs",
+      "coordinates": [
+        0.000314409,
+        0
+      ],
+      "floor": 0,
+      "fictional": true,
+      "coordinateKind": "demo",
+      "routeNodeId": "stairs-ground",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    }
+  ],
+  "accessibility_features": [
+    {
+      "id": "demo-feature-01",
+      "placeId": "demo-healthcare",
+      "key": "wheelchair",
+      "label": "Wheelchair access",
+      "labelEs": "Acceso para silla de ruedas",
+      "state": "limited",
+      "description": "The fictional sample describes partial access. Check the details; this is not a general accessibility claim.",
+      "descriptionEs": "El ejemplo ficticio describe acceso parcial. Consulta los detalles; no es una afirmación general de accesibilidad.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-02",
+      "placeId": "demo-healthcare",
+      "key": "writtenCommunication",
+      "label": "Written communication",
+      "labelEs": "Comunicación escrita",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-03",
+      "placeId": "demo-healthcare",
+      "key": "quiet",
+      "label": "Quiet waiting option",
+      "labelEs": "Opción de espera tranquila",
+      "state": "unknown",
+      "description": "Not specified in the authored fictional sample.",
+      "descriptionEs": "No se especifica en el ejemplo ficticio.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-04",
+      "placeId": "demo-healthcare",
+      "key": "wheelchairLoan",
+      "label": "Wheelchair loan availability",
+      "labelEs": "Disponibilidad de préstamo de sillas de ruedas",
+      "state": "unknown",
+      "description": "Not specified in the authored fictional sample.",
+      "descriptionEs": "No se especifica en el ejemplo ficticio.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-05",
+      "placeId": "demo-pharmacy",
+      "key": "wheelchair",
+      "label": "Wheelchair access",
+      "labelEs": "Acceso para silla de ruedas",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-06",
+      "placeId": "demo-pharmacy",
+      "key": "writtenCommunication",
+      "label": "Written communication",
+      "labelEs": "Comunicación escrita",
+      "state": "unknown",
+      "description": "Not specified in the authored fictional sample.",
+      "descriptionEs": "No se especifica en el ejemplo ficticio.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-07",
+      "placeId": "demo-parking",
+      "key": "accessibleParking",
+      "label": "Accessible parking",
+      "labelEs": "Estacionamiento accesible",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-08",
+      "placeId": "demo-parking",
+      "key": "stepFree",
+      "label": "Step-free access",
+      "labelEs": "Acceso sin escalones",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-09",
+      "placeId": "demo-dropoff",
+      "key": "stepFree",
+      "label": "Step-free access",
+      "labelEs": "Acceso sin escalones",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-10",
+      "placeId": "demo-main-entrance",
+      "key": "stepFree",
+      "label": "Step-free access",
+      "labelEs": "Acceso sin escalones",
+      "state": "no",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-11",
+      "placeId": "demo-side-entrance",
+      "key": "stepFree",
+      "label": "Step-free access",
+      "labelEs": "Acceso sin escalones",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-12",
+      "placeId": "demo-side-entrance",
+      "key": "wheelchair",
+      "label": "Wheelchair access",
+      "labelEs": "Acceso para silla de ruedas",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-13",
+      "placeId": "demo-ramp",
+      "key": "ramp",
+      "label": "Ramp",
+      "labelEs": "Rampa",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-14",
+      "placeId": "demo-ramp",
+      "key": "stepFree",
+      "label": "Step-free access",
+      "labelEs": "Acceso sin escalones",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-15",
+      "placeId": "demo-reception",
+      "key": "writtenCommunication",
+      "label": "Written communication",
+      "labelEs": "Comunicación escrita",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-16",
+      "placeId": "demo-elevator-a",
+      "key": "elevator",
+      "label": "Elevator",
+      "labelEs": "Ascensor",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-17",
+      "placeId": "demo-elevator-b",
+      "key": "elevator",
+      "label": "Elevator",
+      "labelEs": "Ascensor",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-18",
+      "placeId": "demo-restroom-ground",
+      "key": "accessibleRestroom",
+      "label": "Accessible restroom",
+      "labelEs": "Baño accesible",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-19",
+      "placeId": "demo-quiet-room",
+      "key": "quiet",
+      "label": "Quiet waiting option",
+      "labelEs": "Opción de espera tranquila",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-20",
+      "placeId": "demo-quiet-room",
+      "key": "seating",
+      "label": "Seating",
+      "labelEs": "Asientos",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-21",
+      "placeId": "demo-assistance-desk",
+      "key": "wheelchairAssistance",
+      "label": "Wheelchair assistance desk",
+      "labelEs": "Mostrador de asistencia con silla de ruedas",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-22",
+      "placeId": "demo-assistance-desk",
+      "key": "wheelchairLoan",
+      "label": "Wheelchair loan availability",
+      "labelEs": "Disponibilidad de préstamo de sillas de ruedas",
+      "state": "unknown",
+      "description": "Not specified in the authored fictional sample.",
+      "descriptionEs": "No se especifica en el ejemplo ficticio.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-23",
+      "placeId": "demo-waiting-area",
+      "key": "seating",
+      "label": "Seating",
+      "labelEs": "Asientos",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-24",
+      "placeId": "demo-waiting-area",
+      "key": "quiet",
+      "label": "Quiet waiting option",
+      "labelEs": "Opción de espera tranquila",
+      "state": "no",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-25",
+      "placeId": "demo-consultation",
+      "key": "wheelchair",
+      "label": "Wheelchair access",
+      "labelEs": "Acceso para silla de ruedas",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-26",
+      "placeId": "demo-consultation",
+      "key": "writtenCommunication",
+      "label": "Written communication",
+      "labelEs": "Comunicación escrita",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-27",
+      "placeId": "demo-restroom-upper",
+      "key": "accessibleRestroom",
+      "label": "Accessible restroom",
+      "labelEs": "Baño accesible",
+      "state": "limited",
+      "description": "The fictional sample describes partial access. Check the details; this is not a general accessibility claim.",
+      "descriptionEs": "El ejemplo ficticio describe acceso parcial. Consulta los detalles; no es una afirmación general de accesibilidad.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-28",
+      "placeId": "demo-rest-area",
+      "key": "seating",
+      "label": "Seating",
+      "labelEs": "Asientos",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-29",
+      "placeId": "demo-rest-area",
+      "key": "stepFree",
+      "label": "Step-free access",
+      "labelEs": "Acceso sin escalones",
+      "state": "yes",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "demo-feature-30",
+      "placeId": "demo-stairs",
+      "key": "stepFree",
+      "label": "Step-free access",
+      "labelEs": "Acceso sin escalones",
+      "state": "no",
+      "description": "Listed in the authored fictional sample; not a live or inspected status.",
+      "descriptionEs": "Incluido en el ejemplo ficticio; no es un estado en vivo ni inspeccionado.",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    }
+  ],
+  "route_nodes": [
+    {
+      "id": "parking",
+      "name": "Accessible parking",
+      "nameEs": "Estacionamiento accesible",
+      "coordinates": [
+        -0.000628818,
+        -0.000494071
+      ],
+      "localMeters": [
+        -70,
+        -55
+      ],
+      "floor": 0
+    },
+    {
+      "id": "dropoff",
+      "name": "Drop-off area",
+      "nameEs": "Zona de descenso",
+      "coordinates": [
+        -0.000179662,
+        -0.000494071
+      ],
+      "localMeters": [
+        -20,
+        -55
+      ],
+      "floor": 0
+    },
+    {
+      "id": "ramp",
+      "name": "Side approach ramp",
+      "nameEs": "Rampa lateral",
+      "coordinates": [
+        -0.000538987,
+        -0.000269493
+      ],
+      "localMeters": [
+        -60,
+        -30
+      ],
+      "floor": 0
+    },
+    {
+      "id": "side",
+      "name": "Side entrance",
+      "nameEs": "Entrada lateral",
+      "coordinates": [
+        -0.000449156,
+        -0.000089831
+      ],
+      "localMeters": [
+        -50,
+        -10
+      ],
+      "floor": 0
+    },
+    {
+      "id": "main",
+      "name": "Main entrance with steps",
+      "nameEs": "Entrada principal con escalones",
+      "coordinates": [
+        -0.000134747,
+        -0.000134747
+      ],
+      "localMeters": [
+        -15,
+        -15
+      ],
+      "floor": 0
+    },
+    {
+      "id": "reception",
+      "name": "Reception",
+      "nameEs": "Recepción",
+      "coordinates": [
+        0,
+        0
+      ],
+      "localMeters": [
+        0,
+        0
+      ],
+      "floor": 0
+    },
+    {
+      "id": "waiting",
+      "name": "Waiting area",
+      "nameEs": "Zona de espera",
+      "coordinates": [
+        0.000044916,
+        0.000179662
+      ],
+      "localMeters": [
+        5,
+        20
+      ],
+      "floor": 0
+    },
+    {
+      "id": "assistance",
+      "name": "Assistance desk",
+      "nameEs": "Mostrador de asistencia",
+      "coordinates": [
+        -0.000179662,
+        0.000089831
+      ],
+      "localMeters": [
+        -20,
+        10
+      ],
+      "floor": 0
+    },
+    {
+      "id": "restroom",
+      "name": "Ground-floor restroom",
+      "nameEs": "Baño de la planta baja",
+      "coordinates": [
+        -0.000179662,
+        0.000269493
+      ],
+      "localMeters": [
+        -20,
+        30
+      ],
+      "floor": 0
+    },
+    {
+      "id": "rest",
+      "name": "Rest area",
+      "nameEs": "Zona de descanso",
+      "coordinates": [
+        -0.000359324,
+        0.000179662
+      ],
+      "localMeters": [
+        -40,
+        20
+      ],
+      "floor": 0
+    },
+    {
+      "id": "pharmacy",
+      "name": "Campus pharmacy",
+      "nameEs": "Farmacia del campus",
+      "coordinates": [
+        0.000224578,
+        -0.000044916
+      ],
+      "localMeters": [
+        25,
+        -5
+      ],
+      "floor": 0
+    },
+    {
+      "id": "lift-a-ground",
+      "name": "Elevator A · ground floor",
+      "nameEs": "Ascensor A · planta baja",
+      "coordinates": [
+        0.000179662,
+        0.000179662
+      ],
+      "localMeters": [
+        20,
+        20
+      ],
+      "floor": 0
+    },
+    {
+      "id": "lift-b-ground",
+      "name": "Elevator B · ground floor",
+      "nameEs": "Ascensor B · planta baja",
+      "coordinates": [
+        0.000583902,
+        0.000179662
+      ],
+      "localMeters": [
+        65,
+        20
+      ],
+      "floor": 0
+    },
+    {
+      "id": "stairs-ground",
+      "name": "Staircase",
+      "nameEs": "Escaleras",
+      "coordinates": [
+        0.000314409,
+        0
+      ],
+      "localMeters": [
+        35,
+        0
+      ],
+      "floor": 0
+    },
+    {
+      "id": "lift-a-upper",
+      "name": "Elevator A · upper floor",
+      "nameEs": "Ascensor A · planta superior",
+      "coordinates": [
+        0.000179662,
+        0.000179662
+      ],
+      "localMeters": [
+        20,
+        20
+      ],
+      "floor": 1
+    },
+    {
+      "id": "lift-b-upper",
+      "name": "Elevator B · upper floor",
+      "nameEs": "Ascensor B · planta superior",
+      "coordinates": [
+        0.000583902,
+        0.000179662
+      ],
+      "localMeters": [
+        65,
+        20
+      ],
+      "floor": 1
+    },
+    {
+      "id": "consultation",
+      "name": "Upper-floor consultation room",
+      "nameEs": "Consultorio de la planta superior",
+      "coordinates": [
+        0.000314409,
+        0.00040424
+      ],
+      "localMeters": [
+        35,
+        45
+      ],
+      "floor": 1
+    },
+    {
+      "id": "quiet",
+      "name": "Quiet room",
+      "nameEs": "Sala tranquila",
+      "coordinates": [
+        0.000538987,
+        0.00040424
+      ],
+      "localMeters": [
+        60,
+        45
+      ],
+      "floor": 1
+    },
+    {
+      "id": "upper-restroom",
+      "name": "Upper-floor restroom",
+      "nameEs": "Baño de la planta superior",
+      "coordinates": [
+        0.00040424,
+        0.000583902
+      ],
+      "localMeters": [
+        45,
+        65
+      ],
+      "floor": 1
+    }
+  ],
+  "route_edges": [
+    {
+      "id": "parking-ramp",
+      "from": "parking",
+      "to": "ramp",
+      "distanceMeters": 32,
+      "kind": "path",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "paved",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "dropoff-side",
+      "from": "dropoff",
+      "to": "side",
+      "distanceMeters": 50,
+      "kind": "path",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "paved",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "ramp-side",
+      "from": "ramp",
+      "to": "side",
+      "distanceMeters": 23,
+      "kind": "ramp",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 4,
+      "kerbCm": 0,
+      "surface": "paved",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "side-reception",
+      "from": "side",
+      "to": "reception",
+      "distanceMeters": 51,
+      "kind": "corridor",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "main-reception",
+      "from": "main",
+      "to": "reception",
+      "distanceMeters": 22,
+      "kind": "stairs",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "reception-waiting",
+      "from": "reception",
+      "to": "waiting",
+      "distanceMeters": 21,
+      "kind": "corridor",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "reception-assistance",
+      "from": "reception",
+      "to": "assistance",
+      "distanceMeters": 23,
+      "kind": "corridor",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "assistance-restroom",
+      "from": "assistance",
+      "to": "restroom",
+      "distanceMeters": 20,
+      "kind": "corridor",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "assistance-rest",
+      "from": "assistance",
+      "to": "rest",
+      "distanceMeters": 23,
+      "kind": "corridor",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "reception-pharmacy",
+      "from": "reception",
+      "to": "pharmacy",
+      "distanceMeters": 26,
+      "kind": "corridor",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "waiting-a",
+      "from": "waiting",
+      "to": "lift-a-ground",
+      "distanceMeters": 15,
+      "kind": "corridor",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "waiting-b",
+      "from": "waiting",
+      "to": "lift-b-ground",
+      "distanceMeters": 60,
+      "kind": "corridor",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "elevator-a",
+      "from": "lift-a-ground",
+      "to": "lift-a-upper",
+      "distanceMeters": 4,
+      "kind": "elevator",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 110,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "elevatorId": "A",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "elevator-b",
+      "from": "lift-b-ground",
+      "to": "lift-b-upper",
+      "distanceMeters": 4,
+      "kind": "elevator",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 110,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "elevatorId": "B",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "a-consultation",
+      "from": "lift-a-upper",
+      "to": "consultation",
+      "distanceMeters": 30,
+      "kind": "corridor",
+      "floor": 1,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "b-quiet",
+      "from": "lift-b-upper",
+      "to": "quiet",
+      "distanceMeters": 26,
+      "kind": "corridor",
+      "floor": 1,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "quiet-consultation",
+      "from": "quiet",
+      "to": "consultation",
+      "distanceMeters": 25,
+      "kind": "corridor",
+      "floor": 1,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "consultation-restroom",
+      "from": "consultation",
+      "to": "upper-restroom",
+      "distanceMeters": 23,
+      "kind": "corridor",
+      "floor": 1,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "reception-stairs",
+      "from": "reception",
+      "to": "stairs-ground",
+      "distanceMeters": 35,
+      "kind": "corridor",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "stairs-consultation",
+      "from": "stairs-ground",
+      "to": "consultation",
+      "distanceMeters": 49,
+      "kind": "stairs",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "tiles",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "dropoff-main",
+      "from": "dropoff",
+      "to": "main",
+      "distanceMeters": 41,
+      "kind": "path",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": null,
+      "inclinePercent": 0,
+      "kerbCm": 0,
+      "surface": "paved",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "main-pharmacy",
+      "from": "main",
+      "to": "pharmacy",
+      "distanceMeters": 42,
+      "kind": "path",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 0,
+      "kerbCm": 10,
+      "surface": "paved",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    },
+    {
+      "id": "rest-waiting",
+      "from": "rest",
+      "to": "waiting",
+      "distanceMeters": 45,
+      "kind": "path",
+      "floor": 0,
+      "bidirectional": true,
+      "open": true,
+      "widthCm": 140,
+      "inclinePercent": 9,
+      "kerbCm": 0,
+      "surface": "gravel",
+      "source": {
+        "name": "CareNori authored fictional replacement dataset",
+        "updatedAt": "2026-10-31"
+      }
+    }
+  ],
+  "communication_phrases": [
+    {
+      "id": "demo-phrase-01",
+      "group": "Communication",
+      "groupEs": "Comunicación",
+      "text": "I would prefer to type.",
+      "textEs": "Prefiero escribir."
+    },
+    {
+      "id": "demo-phrase-02",
+      "group": "Communication",
+      "groupEs": "Comunicación",
+      "text": "Could you write that down?",
+      "textEs": "¿Podría escribirlo?"
+    },
+    {
+      "id": "demo-phrase-03",
+      "group": "Communication",
+      "groupEs": "Comunicación",
+      "text": "Please speak directly to me.",
+      "textEs": "Por favor, hábleme directamente."
+    },
+    {
+      "id": "demo-phrase-04",
+      "group": "Communication",
+      "groupEs": "Comunicación",
+      "text": "Please read the message on my screen.",
+      "textEs": "Por favor, lea el mensaje en mi pantalla."
+    },
+    {
+      "id": "demo-phrase-05",
+      "group": "Time and understanding",
+      "groupEs": "Tiempo y comprensión",
+      "text": "Please give me more time.",
+      "textEs": "Por favor, deme más tiempo."
+    },
+    {
+      "id": "demo-phrase-06",
+      "group": "Time and understanding",
+      "groupEs": "Tiempo y comprensión",
+      "text": "Please explain one step at a time.",
+      "textEs": "Por favor, explique un paso a la vez."
+    },
+    {
+      "id": "demo-phrase-07",
+      "group": "Time and understanding",
+      "groupEs": "Tiempo y comprensión",
+      "text": "Please explain that again.",
+      "textEs": "Por favor, explíquelo de nuevo."
+    },
+    {
+      "id": "demo-phrase-08",
+      "group": "Time and understanding",
+      "groupEs": "Tiempo y comprensión",
+      "text": "I need a moment to think.",
+      "textEs": "Necesito un momento para pensar."
+    },
+    {
+      "id": "demo-phrase-09",
+      "group": "Finding my way",
+      "groupEs": "Encontrar el camino",
+      "text": "Where is the step-free entrance?",
+      "textEs": "¿Dónde está la entrada sin escalones?"
+    },
+    {
+      "id": "demo-phrase-10",
+      "group": "Finding my way",
+      "groupEs": "Encontrar el camino",
+      "text": "Where is reception?",
+      "textEs": "¿Dónde está recepción?"
+    },
+    {
+      "id": "demo-phrase-11",
+      "group": "Finding my way",
+      "groupEs": "Encontrar el camino",
+      "text": "Which elevator reaches the consultation room?",
+      "textEs": "¿Qué ascensor llega al consultorio?"
+    },
+    {
+      "id": "demo-phrase-12",
+      "group": "Finding my way",
+      "groupEs": "Encontrar el camino",
+      "text": "Could you write directions for me?",
+      "textEs": "¿Podría escribirme las indicaciones?"
+    },
+    {
+      "id": "demo-phrase-13",
+      "group": "Access requests",
+      "groupEs": "Solicitudes de accesibilidad",
+      "text": "Where is an accessible restroom?",
+      "textEs": "¿Dónde hay un baño accesible?"
+    },
+    {
+      "id": "demo-phrase-14",
+      "group": "Access requests",
+      "groupEs": "Solicitudes de accesibilidad",
+      "text": "Is there a quieter place to wait?",
+      "textEs": "¿Hay un lugar más tranquilo para esperar?"
+    },
+    {
+      "id": "demo-phrase-15",
+      "group": "Access requests",
+      "groupEs": "Solicitudes de accesibilidad",
+      "text": "Can I sit down while I wait?",
+      "textEs": "¿Puedo sentarme mientras espero?"
+    },
+    {
+      "id": "demo-phrase-16",
+      "group": "Access requests",
+      "groupEs": "Solicitudes de accesibilidad",
+      "text": "Where can I ask for wheelchair assistance?",
+      "textEs": "¿Dónde puedo pedir asistencia con silla de ruedas?"
+    },
+    {
+      "id": "demo-phrase-17",
+      "group": "My visit",
+      "groupEs": "Mi visita",
+      "text": "I have prepared some questions.",
+      "textEs": "He preparado algunas preguntas."
+    },
+    {
+      "id": "demo-phrase-18",
+      "group": "My visit",
+      "groupEs": "Mi visita",
+      "text": "What documents should I bring?",
+      "textEs": "¿Qué documentos debo llevar?"
+    },
+    {
+      "id": "demo-phrase-19",
+      "group": "My visit",
+      "groupEs": "Mi visita",
+      "text": "Please confirm the date and time.",
+      "textEs": "Por favor, confirme la fecha y la hora."
+    },
+    {
+      "id": "demo-phrase-20",
+      "group": "My visit",
+      "groupEs": "Mi visita",
+      "text": "Can I have the next steps in writing?",
+      "textEs": "¿Puedo recibir los próximos pasos por escrito?"
+    },
+    {
+      "id": "demo-phrase-21",
+      "group": "Asking for support",
+      "groupEs": "Pedir apoyo",
+      "text": "Please ask before helping me.",
+      "textEs": "Por favor, pregúnteme antes de ayudarme."
+    },
+    {
+      "id": "demo-phrase-22",
+      "group": "Asking for support",
+      "groupEs": "Pedir apoyo",
+      "text": "Please do not move my mobility aid without asking.",
+      "textEs": "Por favor, no mueva mi ayuda de movilidad sin preguntarme."
+    },
+    {
+      "id": "demo-phrase-23",
+      "group": "Asking for support",
+      "groupEs": "Pedir apoyo",
+      "text": "This path is blocked. Where can I go instead?",
+      "textEs": "Este camino está bloqueado. ¿Por dónde puedo ir?"
+    },
+    {
+      "id": "demo-phrase-24",
+      "group": "Asking for support",
+      "groupEs": "Pedir apoyo",
+      "text": "I need help finding another elevator.",
+      "textEs": "Necesito ayuda para encontrar otro ascensor."
+    }
+  ],
+  "sample_documents": [
+    {
+      "id": "demo-campus-letter",
+      "placeId": "demo-healthcare",
+      "title": "Fictional administrative appointment letter",
+      "titleEs": "Carta administrativa de cita ficticia",
+      "content": "FICTIONAL SAMPLE. CareNori Community Centre. Sample appointment: 3 December 2026, 10:30 AM. Arrive at reception at 10:15 AM. The consultation room is on the upper floor. Bring your appointment letter, any documents you were asked to bring, and your questions. Ask reception about access arrangements. No appointment has been booked. This authored replacement sample is not an uploaded document.",
+      "contentEs": "EJEMPLO FICTICIO. Centro comunitario CareNori. Cita de ejemplo: 3 de diciembre de 2026, 10:30. Llega a recepción a las 10:15. El consultorio está en la planta superior. Lleva tu carta de cita, los documentos que te hayan pedido y tus preguntas. Consulta en recepción los ajustes de accesibilidad. No se ha reservado ninguna cita. Este ejemplo de reemplazo no es un documento subido.",
+      "fictional": true
+    }
+  ],
+  "accessibility_reports": [],
+  "metadata": {
+    "schemaVersion": 1,
+    "name": "CareNori replacement demo campus",
+    "nameEs": "Campus ficticio de reemplazo CareNori",
+    "origin": "authored_replacement",
+    "originalStarterAvailable": false,
+    "disclosure": "The referenced carenori_accessibility_starter bundle was not available in the provided attachments or targeted local search. This is a newly authored fictional replacement with the requested record counts; the original seed and route_demo.py were not used.",
+    "disclosureEs": "El paquete carenori_accessibility_starter mencionado no estaba disponible en los archivos adjuntos ni en la búsqueda local. Este es un reemplazo ficticio creado con las cantidades solicitadas; no se utilizaron el seed original ni route_demo.py.",
+    "coordinateSystem": "Local meters converted around [0,0] solely for rendering. Not a geographic location.",
+    "persistence": "Read-only JSON seed. Retrieved public places stay in memory. Only user-submitted unverified barrier reports use local browser storage. Personal visit content stays in session memory.",
+    "generatedAt": "2026-10-31"
+  }
+}

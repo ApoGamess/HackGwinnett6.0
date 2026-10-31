@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "siteId": "demo-controlled",
+  "revision": 1,
+  "name": "CareNori controlled demo",
+  "nameEs": "Demostración controlada de CareNori",
+  "fictional": true,
+  "physicallyInstalled": false,
+  "surveyed": false,
+  "coordinateSystem": "authored local demo graph; no physical location asserted",
+  "source": "CareNori authored test labels, 2026-10-31; not installed at Grady Memorial Hospital",
+  "checkpoints": [
+    { "id": "entrance", "name": "Entrance", "nameEs": "Entrada", "routeNodeId": "side" },
+    { "id": "reception", "name": "Reception", "nameEs": "Recepción", "routeNodeId": "reception" },
+    { "id": "waiting", "name": "Waiting area", "nameEs": "Sala de espera", "routeNodeId": "waiting" },
+    { "id": "help-desk", "name": "Help desk", "nameEs": "Punto de ayuda", "routeNodeId": "assistance" }
+  ]
+}

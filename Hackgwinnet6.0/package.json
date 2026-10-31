@@ -1,0 +1,41 @@
+{
+  "name": "carenori",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "npm run build && playwright test",
+    "predev": "node scripts/sync-vision-assets.mjs",
+    "prebuild": "node scripts/sync-vision-assets.mjs",
+    "typecheck": "tsc -b",
+    "generate:qr": "node scripts/generate-checkpoint-labels.mjs"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "2.2.3",
+    "@tensorflow/tfjs": "4.22.0",
+    "@zxing/browser": "0.1.5",
+    "lucide-react": "0.468.0",
+    "maplibre-gl": "6.16.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tesseract.js": "6.0.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "@tailwindcss/vite": "4.3.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "qrcode": "1.5.4",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.8.3",
+    "vite": "6.4.5"
+  },
+  "overrides": {
+    "tesseract.js-core": "6.1.2"
+  }
+}

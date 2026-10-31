@@ -1,0 +1,13 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.local
+.env
+.env.*
+!.env.example
+.publish/
+artifacts/
+test-results*/
+public/vision/tesseract/

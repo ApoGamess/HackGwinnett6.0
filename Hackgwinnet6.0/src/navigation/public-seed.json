@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "datasetRevision": "grady-osm-2026-10-31",
+  "retrievedAt": "2026-10-31",
+  "license": "OpenStreetMap data © OpenStreetMap contributors, ODbL 1.0",
+  "query": "[out:json][timeout:20];way(270880941);out meta center;",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "official": {
+    "name": "Grady Memorial Hospital",
+    "address": "80 Jesse Hill Jr Drive SE, Atlanta, GA 30303",
+    "url": "https://www.gradyhealth.org/locations/grady-memorial-hospital/",
+    "retrievedAt": "2026-10-31",
+    "crossCheck": "OSM name, house number 80, Atlanta, GA and postcode 30303 match the official location. OSM expands Jr to Junior and SE to Southeast. The OSM way center is a building display point, not an entrance or user position."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 270880941,
+      "timestamp": "2020-12-23T03:32:07Z",
+      "version": 9,
+      "center": { "lat": 33.7517332, "lon": -84.382073 },
+      "tags": {
+        "addr:city": "Atlanta",
+        "addr:housenumber": "80",
+        "addr:postcode": "30303",
+        "addr:state": "GA",
+        "addr:street": "Jesse Hill Junior Drive Southeast",
+        "building": "hospital",
+        "designation": "Level 1 Trauma Center",
+        "emergency": "yes",
+        "name": "Grady Memorial Hospital",
+        "wikidata": "Q5592136"
+      }
+    }
+  ]
+}

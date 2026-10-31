@@ -1,0 +1,39 @@
+.camera-page { max-width: 1260px; margin: 0 auto; }
+.camera-context, .camera-next { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1rem 1.2rem; border: 1px solid var(--border, #d5e4e2); border-radius: 16px; background: var(--surface, #fff); margin-bottom: 1rem; }
+.camera-limitation { background: #fff4df; border-left: 4px solid #93610f; color: #513606; padding: .85rem 1rem; border-radius: 5px; line-height: 1.6; }
+.camera-shell { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(270px, 1fr); gap: 1.4rem; margin: 1.3rem 0; }
+.camera-view { position: relative; width: 100%; aspect-ratio: 16 / 10; min-height: 200px; overflow: hidden; background: #132d32; border-radius: 18px; }
+.camera-view video { width: 100%; height: 100%; object-fit: contain; display: block; }
+.camera-mirrored { transform: scaleX(-1); }
+.camera-placeholder { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 1rem; color: #fff; }
+.camera-boxes { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.camera-boxes rect { stroke: #b2fff2; stroke-width: 2; fill: transparent; }
+.camera-boxes text { fill: white; stroke: #102b2c; stroke-width: 4px; paint-order: stroke; font-size: 16px; font-weight: 700; }
+.camera-boxes .camera-target-box rect { stroke: #ffe080; stroke-width: 5; stroke-dasharray: 8 3; }
+.camera-controls { align-self: center; min-width: 0; }
+.camera-state { margin-top: 0; }
+.camera-actions, .camera-modes { display: flex; flex-wrap: wrap; gap: .65rem; align-items: center; }
+.camera-actions .btn { min-height: 44px; }
+.camera-modes { margin: 1.5rem 0 1rem; }
+.camera-privacy, .camera-note { font-size: .88rem; color: var(--text-muted, #50656a); line-height: 1.6; }
+.camera-object-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.2rem; }
+.camera-panel { min-width: 0; padding: 1.4rem; border: 1px solid var(--border, #d5e4e2); border-radius: 18px; background: var(--surface, #fff); }
+.camera-panel h2 { margin-top: 0; }
+.camera-panel label, .camera-device { display: flex; flex-direction: column; gap: .4rem; margin-bottom: 1rem; font-weight: 600; }
+.camera-panel input, .camera-panel select, .camera-device select { min-height: 46px; width: 100%; padding: .65rem; background: var(--surface, #fff); color: inherit; border: 1px solid #829895; border-radius: 8px; font: inherit; }
+.camera-device { margin-top: 1rem; }
+.camera-result-list { list-style: none; padding: 0; margin: 0; }
+.camera-result-list li { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; border-bottom: 1px solid var(--border, #d5e4e2); padding: .65rem 0; }
+.camera-result-list strong { text-transform: capitalize; }
+.camera-observation { padding: .85rem; border-left: 4px solid #1e746b; background: #eaf6f1; color: #143d38; line-height: 1.65; }
+.camera-error { color: #8f2525; font-weight: 600; line-height: 1.6; }
+.camera-next h2 { font-size: 1.15rem; margin: .3rem 0; }
+.camera-next .eyebrow { margin: 0; }
+.camera-diagnostics { border-top: 1px solid var(--border, #d5e4e2); padding: 1rem 0 2rem; font-size: .9rem; }
+.camera-diagnostics summary { cursor: pointer; min-height: 44px; padding: .6rem 0; font-weight: 600; }
+.camera-diagnostics dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.camera-diagnostics dt { font-weight: 600; }
+.camera-diagnostics dd { margin: .4rem 0 0; overflow-wrap: anywhere; }
+.high-contrast .camera-limitation, .high-contrast .camera-observation { background: #fff; color: #000; border-color: #000; }
+@media (max-width: 900px) { .camera-shell { grid-template-columns: 1fr; } .camera-controls { align-self: auto; } }
+@media (max-width: 650px) { .camera-object-layout { grid-template-columns: 1fr; } .camera-context, .camera-next { flex-direction: column; align-items: flex-start; } .camera-panel { padding: 1rem; } .camera-diagnostics dl { grid-template-columns: 1fr 1fr; } .camera-actions .btn, .camera-modes .btn { flex: 1 1 100%; } }
